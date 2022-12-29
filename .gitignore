@@ -3,7 +3,6 @@ replit.nix
 venv/
 .upm/
 
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

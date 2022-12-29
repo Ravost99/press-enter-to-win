@@ -38,7 +38,7 @@ I hope I impressed you Coder100
 - [ ] Better README.md
 - [ ] Can't find "item" message in shops
 - [ ] Save game codes (numbers only maybe?)
-- [ ] Github repo (maybe in the future)
+- [X] Github repo (maybe in the future)
 - [ ] Leaderboard
 - [ ] Achievements (very likely)
 
@@ -69,6 +69,6 @@ Project status: _maintained_ <!-- hopefully always -->
 
 Replit repl: [press enter to win (python)](https://replit.com/@Ravost/press-enter-to-win-python?v=1)
 
-Github repo: _Coming soon_
+Github repo: [press enter to win](https://github.com/Ravost99/press-enter-to-win/)
 
 [Coder100's](https://replit.com/@Coder100) [press enter to win [c++]](https://replit.com/@Coder100/press-enter-to-win-the-game-game-c-yay?v=1)

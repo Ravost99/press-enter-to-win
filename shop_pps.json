@@ -1,0 +1,66 @@
+{
+  "default": {
+    "name": "default",
+    "cost": 0,
+    "pps": 0,
+    "description": "Description",
+    "keywords": ["def", "default"],
+    "id": "default"
+  },
+  "what": {
+    "name": "what?!",
+    "cost": 16,
+    "pps": 1,
+    "description": "Get enters without even knowing it.",
+    "keywords": ["what"],
+    "id": "what"
+  },
+  "six_sense": {
+    "name": "Sixth Sense",
+    "cost": 468,
+    "pps": 5,
+    "description": "It's scientific name is Enterory Senslitory.",
+    "keywords": ["six", "sense"],
+    "id": "six_sense"
+  },
+  "alien": {
+    "name": "Alien Enter",
+    "cost": 6325,
+    "pps": 10,
+    "description": "Get my alien friend to zap in enters for you.",
+    "keywords": ["alien"],
+    "id": "alien"
+  },
+  "time_machine": {
+    "name": "Time Machine",
+    "cost": 87900,
+    "pps": 20,
+    "description": "Travel forward and back in time to get lots of enters",
+    "keywords": ["time", "machine"],
+    "id": "time_machine"
+  },
+  "alt_dimension": {
+    "name": "Alternate Dimension",
+    "cost": 1224146,
+    "pps": 40,
+    "description": "Summon enters from the ninteenth dimension",
+    "keywords": ["alt", "dimension"],
+    "id": "alt_dimension"
+  },
+  "console": {
+    "name": "Console editor",
+    "cost": 5714469,
+    "pps": 60,
+    "description": "enters+=999999999999",
+    "keywords": ["console", "edit"],
+    "id": "console"
+  },
+  "root": {
+    "name": "Root user",
+    "cost": 7959555,
+    "pps": 120,
+    "description": "Login as root to code more enters.",
+    "keywords": ["root"],
+    "id": "root"
+  }
+}

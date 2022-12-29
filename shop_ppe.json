@@ -1,0 +1,82 @@
+{
+  "default": {
+    "name": "default",
+    "cost": 0,
+    "ppe": 0,
+    "description": "Description",
+    "keywords": ["def", "default"],
+    "id": "default"
+  },
+  "extra_key": {
+    "name": "Extra Enter Key",
+    "cost": 15,
+    "ppe": 1,
+    "description": "Replace that boring right shift with an enter key.",
+    "keywords": ["extra", "extra enter key", "enter key"],
+    "id": "extra_key"
+  },
+  "rgb": {
+    "name": "RGB Keyboard",
+    "cost": 88,
+    "ppe": 5,
+    "description": "Buy an RBG keyboard to brightly light up your enters.",
+    "keywords": ["rgb", "rgb keyboard"],
+    "id": "rgb"
+  },
+  "macro": {
+    "name": "Macro Enter Key",
+    "cost": 343,
+    "ppe": 10,
+    "description": "Change your enter key to double your enters.",
+    "keywords": ["macro"],
+    "id": "macro"
+  },
+  "six_finger": {
+    "name": "Sixth Finger",
+    "cost": 3996,
+    "ppe": 20,
+    "description": "Grow a sixth finger between your thumb and index finger.",
+    "keywords": ["six", "finger"],
+    "id": "six_finger"
+  },
+  "bluetooth": {
+    "name": "Bluetooth v18691753.6 Keyboard",
+    "cost": 48288,
+    "ppe": 40,
+    "description": "It has infinite range.",
+    "keywords": ["ble", "bluetooth", "18691753"],
+    "id": "bluetooth"
+  },
+  "whole_keyboard": {
+    "name": "Giant Enter",
+    "cost": 585365,
+    "ppe": 60,
+    "description": "Change your whole keyboard into one giant enter key.",
+    "keywords": ["giant"],
+    "id": "whole_keyboard"
+  },
+  "noise_emitting": {
+    "name": "Noise-Emitting Enter",
+    "cost": 2619690,
+    "ppe": 120,
+    "description": "*cat noises*",
+    "keywords": ["noise", "emit"],
+    "id": "noise_emitting"
+  },
+  "hyper_enter": {
+    "name": "Hyper Enter",
+    "cost": 30552918,
+    "ppe": 240,
+    "description": "Super sonic speed.",
+    "keywords": ["hyper", "sonic"],
+    "id": "hyper_enter"
+  },
+  "lol": {
+    "name": "LOL enter",
+    "cost": 370476349,
+    "ppe": 480,
+    "description": "lol",
+    "keywords": ["lol"],
+    "id": "lol"
+  }
+}

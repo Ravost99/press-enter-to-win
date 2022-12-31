@@ -1,5 +1,6 @@
 import colors, os, json, time, random
 from threading import Thread
+from update import update
 
 # Colors from colors.py
 bold = colors.bold
@@ -17,6 +18,9 @@ enters = 0
 ppe = 1
 pps = 1
 chance_enters = 1
+
+# Update checker from github
+update()
 
 # Loaded within this file, so I can change things for every run without overwritting the file
 with open("shop_ppe.json") as f:
@@ -171,7 +175,6 @@ def chance_shop():
     print(error("not_num", pick))
     print("You can only buy up to 10,000 chance enters at a time.")
     
-
 # Starting messages
 print(f"{reset}Welcome to press enter to win (in python)!\n")
 

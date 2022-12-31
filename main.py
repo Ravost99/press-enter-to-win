@@ -16,7 +16,7 @@ chance_msg = True
 arrow = ""
 enters = 0
 ppe = 1
-pps = 1
+pps = 0
 chance_enters = 1
 
 # Update checker from github

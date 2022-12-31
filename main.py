@@ -20,7 +20,7 @@ pps = 1
 chance_enters = 1
 
 # Update checker from github
-update()
+update(False)
 
 # Loaded within this file, so I can change things for every run without overwritting the file
 with open("shop_ppe.json") as f:

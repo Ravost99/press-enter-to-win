@@ -42,8 +42,6 @@ def update(send_return=True):
       if new_data == update_data:
         if send_return == True:
           print(f"{green}No update in {item}!{reset}")
-        else:
-          return
       else:
         update = timeout_input(f"There is a new update in {item}, would you like to update?\nYou have {timeout} seconds. (Will override {underline}everything{reset} in {item}) (Y/N) ")
         if update is not None and update.lower() == "y":

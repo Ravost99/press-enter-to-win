@@ -20,7 +20,12 @@ pps = 0
 chance_enters = 1
 
 # Update checker from github
-update(False)
+# Delete the following lines and un-comment the next line
+#update(False)
+if os.environ["REPL_OWNER"] == "Ravost":
+  update(False)
+else:
+  print("If you would like to update this then fork/remix the project and follow the instructions around lines 22-24.\n")
 
 # Loaded within this file, so I can change things for every run without overwritting the file
 with open("shop_ppe.json") as f:

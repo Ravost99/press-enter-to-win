@@ -1,6 +1,5 @@
 import colors, os, json, time, random
 from threading import Thread
-from update import update
 
 # Colors from colors.py
 bold = colors.bold
@@ -18,14 +17,6 @@ enters = 0
 ppe = 1
 pps = 0
 chance_enters = 1
-
-# Update checker from github
-# Delete the following lines and un-comment the next line
-#update(False)
-if os.environ["REPL_OWNER"] == "Ravost":
-  update(False)
-else:
-  print("If you would like to update this then fork/remix the project and follow the instructions around lines 22-24.\n")
 
 # Loaded within this file, so I can change things for every run without overwritting the file
 with open("shop_ppe.json") as f:
@@ -101,6 +92,8 @@ def ppe_shop():
       print(f"Buy for {blue}{enter_item['cost']:,}{reset} enters and get {bold}{blue}{enter_item['ppe']}{reset}{bold} PPE{reset}\n")
       
   pick = input(f"{reset}Current Balance: {bold}{l_blue}{enters}{reset}\nCurrent PPE: {bold}{l_blue}{ppe}{reset}\nWhat do you want to buy? ")
+  if pick == "" or pick == " " or pick == None:
+    print("Please enter a valid item!")
 
   for item in reversed(list(ppe_data)):
     if any(x in pick for x in ppe_data[item]["keywords"]): # Checking if the input is is any of the item's "keywords"
@@ -132,6 +125,8 @@ def pps_shop():
       print(f"Buy for {blue}{enter_item['cost']:,}{reset} enters and get {bold}{blue}{enter_item['pps']}{reset}{bold} PPS{reset}\n")
 
   pick = input(f"{reset}Current Balance: {bold}{l_blue}{enters}{reset}\nCurrent PPS: {bold}{l_blue}{pps}{reset}\nWhat do you want to buy? ")
+  if pick == "" or pick == " " or pick == None:
+    print("Please enter a valid item!")
 
   for item in reversed(list(pps_data)):
     if any(x in pick for x in pps_data[item]["keywords"]): # Checking if the input is is any of the item's "keywords"
@@ -226,3 +221,5 @@ while True:
     help()
   else:
     print(error("cmd_not_found", enter))
+
+quit(blue+"\nThank you for playing!")

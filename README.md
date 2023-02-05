@@ -32,21 +32,10 @@ I hope I impressed you Coder100
 - Instant checks for pricing (buy **now** for ...)
 
 ## Coming Soon:
-<!--<input type="checkbox" name="item" id="item"/><label for="item">Working idle enters [pps] (almost here!)<label/><br>
-<input type="checkbox" name="item" id="item"/><label for="item">Better README.md<label/><br>
-<input type="checkbox" name="item" id="item"/><label for="item">Github repo<label/><br>-->
 - [ ] Better README.md
 - [ ] Can't find "item" message in shops
 - [ ] Save game codes (numbers only maybe?)
-- [X] Github repo (maybe in the future)
-- [ ] Leaderboard
 - [ ] Achievements (very likely)
-
-<!--
-### Need help on:
-- Better prices (depends on what the community thinks)
-- Readability
--->
 
 ## Information & Help <!-- Helpdesk? -->
 **PPS loading**
